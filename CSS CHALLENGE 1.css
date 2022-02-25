@@ -1,0 +1,449 @@
+/* FONT */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* .jumbotron{
+    background-color: #F1F3FF;
+    display: cover;
+} */
+
+
+p{
+    font-size: 0.875rem;
+}
+
+.NAVBAR{
+    position: relative;
+    align-content: center;
+    padding-left: 8.5rem;
+    padding-right: 8.5rem;
+    background-color: #F1F3FF;
+}
+
+.nav-link{
+    position: relative;
+    font-size: 0.875rem;
+    color: black;
+}
+
+.HEROBOX{
+    background-color: #F1F3FF;
+    width: 100%;
+    
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .HEROBOX{
+        align-content: center;
+       }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .HEROBOX{
+        width: 100%;
+        height: auto;
+       }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .HEROBOX{
+        width: 100%;
+        height: auto;
+       }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .HEROBOX{
+        width: 100%;
+        height: auto;
+       }
+  }
+
+  @media screen and (max-width: 576px) {
+    .HEROBOX{
+        width: 100%;
+        height: auto;
+       }
+  }
+
+
+/* responsive mobil */
+    @media screen and (min-width: 1200px) and (max-width: 1440px) {
+        .fotomobil{
+            width: 100%;
+            height: auto;
+            transform: translateX(12%);
+           }
+      }
+
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .fotomobil{
+            width: 100%;
+            height: auto;
+            
+           }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        .fotomobil{
+            width: 100%;
+            height: auto;
+            
+           }
+      }
+
+      @media screen and (min-width: 576px) and (max-width: 768px) {
+        .fotomobil{
+            width: 100%;
+            height: auto;
+           }
+      }
+
+      @media screen and (max-width: 576px) {
+        .fotomobil{
+            width: 100%;
+            height: auto;
+           }
+      }
+
+      .fotombak{
+        padding-left: 3.75rem; 
+        padding-top: 6.563rem
+      }
+      @media screen and (min-width: 1200px) and (max-width: 1440px) {
+        .fotombak{
+            align-content: center;
+           }
+      }
+
+      @media screen and (min-width: 992px) and (max-width: 1200px) {
+        .fotombak{
+            width: 100%;
+            height: auto;
+            align-content: center;
+           }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 992px) {
+        .fotombak{
+            width: 80%;
+            height: auto;
+            align-content: center;
+            transform: translateX(-4%);
+           }
+      }
+
+      @media screen and (min-width: 576px) and (max-width: 768px) {
+        .fotombak{
+            width: 80%;
+            height: auto;
+            align-content: center;
+            transform: translateX(-4%);
+           }
+      }
+
+      @media screen and (max-width: 576px) {
+        .fotombak{
+            width: 100%;
+            height: auto;
+            align-content: center;
+            transform: translateX(-4%);
+           }
+      }
+
+/* responsive mobil end */
+
+.box-shape{
+width: 6.25rem;
+height: 2.125rem;
+background-color: #0D28A6;
+}
+
+
+h2{
+    font-size: 2.25rem;
+}
+
+.desc{
+    font-size: 0.875rem;
+}
+
+.linedua{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1rem;
+}
+.section2{
+    padding-top: 6%;
+}
+
+.card{
+    height: 12.25rem;
+    width: 16.75rem;
+    align-content: center;
+}
+
+.card-img-top{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.cardtxt{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: 0.875rem;
+}
+
+.section-5{
+    background-color: #0D28A6;
+    border-radius: 0.813rem;
+    margin-top: 9.75rem;
+    color: white;
+    width: 73rem;
+    height: 20.375rem;
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .section-5{
+        align-content: center;
+        margin-top: 3rem;
+
+       }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        align-content: center;
+        margin-top: 3rem;
+       }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        align-content: center;
+        margin-top: 4rem;
+       }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        align-content: center;
+        margin-top: 6rem;
+       }
+  }
+
+  @media screen and (max-width: 576px) {
+    .section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        align-content: center;
+       }
+  }
+
+
+.h2-section-5{
+    padding-top: 4rem;
+    margin-bottom: 1rem;
+    margin-left: 16.875rem;
+    margin-right: 17.813rem;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .h2-section-5{
+        align-content: center;
+
+       }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .h2-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .h2-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .h2-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+       }
+  }
+
+  @media screen and (max-width: 576px) {
+    .h2-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+       }
+  }
+
+.p-section-5{
+    padding-top: 1rem;
+    padding-bottom: 3.25rem;
+    margin-left: 21.375rem;
+    margin-right: 22.375rem;
+    text-align: center;
+    font-size: 0.875rem;
+    line-height: 20px;
+    color: white;
+}
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .p-section-5{
+        align-content: center;
+
+       }
+  }
+
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    .p-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    .p-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+       }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    .p-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+       }
+  }
+
+  @media screen and (max-width: 576px) {
+    .p-section-5{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        
+       }
+  }
+
+.btn-section-5{
+    padding-bottom: 4rem;
+    border-radius: 0.125rem;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .btn-section-5{
+        width: 100%;
+        height: auto;
+       }
+  }
+
+/*Section 6 */
+h4{
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+}
+
+
+.accordion-button:not(.collapsed){
+    color: black;
+    background-color: white;
+    box-shadow: inset;
+    
+}
+
+.accordion-button{
+    border: 0.063rem solid #d4d4d4;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+.accordion-body{
+    border: 0.063rem solid #d4d4d4;
+    border-top: none;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+}
+
+/*Footer*/
+footer{
+    margin-top: 9.375rem;
+    margin-bottom: 6.25rem;
+}
+
+.foot-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.foot-list{
+    padding-bottom: 1rem;
+    margin-left: 5.375rem;
+}
+
+.foot-logo{
+    padding-left: 5%;
+}
+
+.kartutesti{
+    display: flex;
+    flex-direction: row;
+}
+
+.button-prev{
+    position: static;
+    padding-top: 3%;
+    border-style: hidden;
+    background-color: white;
+}
+
+.button-next{
+    position: static;
+    padding-top: 3%;
+    border-style: hidden;
+    background-color: white;
+}
+
